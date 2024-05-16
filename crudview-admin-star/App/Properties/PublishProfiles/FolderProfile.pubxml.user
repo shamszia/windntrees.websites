@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\projects\software\institute-scrp\published\version009</_PublishTargetUrl>
+    <History>True|2023-11-18T21:24:12.8699648Z;False|2023-11-19T02:21:28.2437280+05:00;False|2023-11-19T02:20:39.0611742+05:00;False|2023-11-19T02:20:10.7461378+05:00;True|2023-08-31T15:54:54.3080004+05:00;True|2023-08-30T17:27:37.0736750+05:00;True|2023-08-27T18:02:37.2966533+05:00;True|2023-08-24T15:14:49.5916891+05:00;True|2023-08-23T17:10:52.5840726+05:00;True|2023-08-23T16:45:20.1106955+05:00;True|2023-08-23T12:56:17.5208380+05:00;True|2023-08-22T17:55:38.5517091+05:00;True|2023-08-22T17:33:15.9892608+05:00;True|2023-08-22T14:35:37.2623070+05:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ApplicationConnection">
+      <Value>Server=.\sqlexpress%3bDatabase=institute-scrp%3bUser Id=institute-scrp%3bPassword=Dk%40123%3bTrusted_Connection=False%3bMultipleActiveResultSets=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

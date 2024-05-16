@@ -1,0 +1,250 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\projects\\software\\institute-scrp\\WindnTrees.Abstraction.Core.App.DataAccess\\WindnTrees.Abstraction.Core.App.DataAccess.csproj": {}
+  },
+  "projects": {
+    "E:\\projects\\software\\institute-scrp\\WindnTrees.Abstraction.Core.App.DataAccess\\WindnTrees.Abstraction.Core.App.DataAccess.csproj": {
+      "version": "0.0.0.1",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\software\\institute-scrp\\WindnTrees.Abstraction.Core.App.DataAccess\\WindnTrees.Abstraction.Core.App.DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "E:\\projects\\software\\institute-scrp\\WindnTrees.Abstraction.Core.App.DataAccess\\WindnTrees.Abstraction.Core.App.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\geo_s\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\software\\institute-scrp\\WindnTrees.Abstraction.Core.App.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\geo_s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\projects\\software\\institute-scrp\\WindnTrees.Abstraction.Core.App.LocaleResources\\WindnTrees.Abstraction.Core.App.LocaleResources.csproj": {
+                "projectPath": "E:\\projects\\software\\institute-scrp\\WindnTrees.Abstraction.Core.App.LocaleResources\\WindnTrees.Abstraction.Core.App.LocaleResources.csproj"
+              },
+              "E:\\projects\\software\\institute-scrp\\WindnTrees.Abstraction.Core.App.SharedLibrary\\WindnTrees.Abstraction.Core.App.SharedLibrary.csproj": {
+                "projectPath": "E:\\projects\\software\\institute-scrp\\WindnTrees.Abstraction.Core.App.SharedLibrary\\WindnTrees.Abstraction.Core.App.SharedLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "System.ComponentModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.Common": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "WindnTrees.CRUDS.Repository.Core": {
+              "target": "Package",
+              "version": "[1.0.9, )"
+            },
+            "WindnTrees.ICRUDS.Standard": {
+              "target": "Package",
+              "version": "[0.0.24, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\projects\\software\\institute-scrp\\WindnTrees.Abstraction.Core.App.LocaleResources\\WindnTrees.Abstraction.Core.App.LocaleResources.csproj": {
+      "version": "0.0.0.1",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\software\\institute-scrp\\WindnTrees.Abstraction.Core.App.LocaleResources\\WindnTrees.Abstraction.Core.App.LocaleResources.csproj",
+        "projectName": "LocaleResources",
+        "projectPath": "E:\\projects\\software\\institute-scrp\\WindnTrees.Abstraction.Core.App.LocaleResources\\WindnTrees.Abstraction.Core.App.LocaleResources.csproj",
+        "packagesPath": "C:\\Users\\geo_s\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\software\\institute-scrp\\WindnTrees.Abstraction.Core.App.LocaleResources\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\geo_s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\projects\\software\\institute-scrp\\WindnTrees.Abstraction.Core.App.SharedLibrary\\WindnTrees.Abstraction.Core.App.SharedLibrary.csproj": {
+      "version": "0.0.0.1",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\software\\institute-scrp\\WindnTrees.Abstraction.Core.App.SharedLibrary\\WindnTrees.Abstraction.Core.App.SharedLibrary.csproj",
+        "projectName": "SharedLibrary",
+        "projectPath": "E:\\projects\\software\\institute-scrp\\WindnTrees.Abstraction.Core.App.SharedLibrary\\WindnTrees.Abstraction.Core.App.SharedLibrary.csproj",
+        "packagesPath": "C:\\Users\\geo_s\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\software\\institute-scrp\\WindnTrees.Abstraction.Core.App.SharedLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\geo_s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

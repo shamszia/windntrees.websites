@@ -1,0 +1,164 @@
+﻿@section Header
+{
+    <title>@LocaleResources.Core.Views.Lists.Index.Page</title>
+
+    <script type="text/html" id="actions">
+        <form>
+            <div class='row actions'>
+                <div class='col-sm-12 col-md-12 col-lg-12 pb-1 order-0'>
+                    <div class="input-group">
+                        <span class="input-group-prepend">
+                            <button type="button" class='btn btn-primary btn-control-primary' title='@SharedLibrary.Core.Resources.Global.FormMessages.New' data-bind="click: function(data, event) { resetForm(); }" data-toggle="modal" data-target="#__form"><span>@SharedLibrary.Core.Resources.Global.FormMessages.New</span></button>
+                        </span>
+                        <input id="Keyword" class='form-control form-control-sm-custom' data-bind='value: Keyword' type='text' placeholder='@SharedLibrary.Core.Resources.Global.FormMessages.Keyword' />
+                        <span class="input-group-append">
+                            <button type="submit" class='btn btn-primary btn-control-primary' data-bind='click: function() { list(1); }' title='@SharedLibrary.Core.Resources.Global.FormMessages.SearchD'><span>@SharedLibrary.Core.Resources.Global.FormMessages.Search</span></button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </script>
+
+    <script type="text/html" id="headings">
+        <tr>
+            <th class="col-5 order-0" scope="col">
+                <span class="d-flex align-content-start" title="@LocaleResources.Core.Contents.Color.Name">@LocaleResources.Core.Contents.Color.Name</span>
+            </th>
+            <th class="col-5 order-1" scope="col">
+                <span class="d-flex align-content-start" title="@LocaleResources.Core.Contents.Color.Description">@LocaleResources.Core.Contents.Color.Description</span>
+            </th>
+            <th class="col-2 order-2" scope="col">&nbsp;</th>
+        </tr>
+    </script>
+
+    <script type="text/html" id="rows">
+        <tr>
+            <td><span class="d-flex align-content-start" data-bind="text: Name()"></span></td>
+            <td><span class="d-flex align-content-start" data-bind="text: Description()"></span></td>
+            <td>
+                <div class="d-flex justify-content-end">
+                    <span>
+                        <a class="green" href="#" data-bind="click: function(data, event) { $parent.resetFormForEditing($index); }" data-toggle="modal" data-target="#__form" title="@SharedLibrary.Core.Resources.Global.FormMessages.EditD"><i class="fa fa-edit text-success"></i>@SharedLibrary.Core.Resources.Global.FormMessages.Edit</a>
+                        <a class="red" href="#" data-bind="click: function(data, event) { $parent.delete($data); }" title="@SharedLibrary.Core.Resources.Global.FormMessages.DeleteD"><i class="fa fa-times text-danger"></i>@SharedLibrary.Core.Resources.Global.FormMessages.Delete</a>
+                    </span>
+                </div>
+            </td>
+        </tr>
+    </script>
+
+    <script type="text/html" id="formcontent">
+        <div class="row form-group">
+            <div class="col-4 order-0">
+                <label class="control-label d-flex align-content-start" for="Name">
+                    @LocaleResources.Core.Contents.Color.Name
+                </label>
+                <input class="form-control col-12" data-bind="value: Name" id="Name" type="text" title="@LocaleResources.Core.Contents.Color.Name"
+                       maxlength="200" placeholder="" /><span class="error"
+                                                             data-bind="validationMessage: Name"></span>
+            </div>
+            <div class="col-8 order-1">
+                <label class="control-label d-flex align-content-start" for="Description">
+                    @LocaleResources.Core.Contents.Color.Description
+                </label>
+                <input class="form-control col-12" data-bind="value: Description" id="Description" type="text" title="@LocaleResources.Core.Contents.Color.Description"
+                       maxlength="255" placeholder="" /><span class="error"
+                                                              data-bind="validationMessage: Description"></span>
+            </div>
+        </div>
+    </script>
+}
+
+@section PageTitle {
+    <h5>CRUDSList (CRUDViews Array)</h5>
+}
+
+<div class="content-wrapper">
+    <div class="container-fluid row p-0">
+        <div class="col-2 order-0 justify-content-start" data-bind="with: getCurrent().getObserverObject()">
+            <div class="">
+                <ul class="outer-items-list pl-0" data-bind="foreach: $root.getCRUDS()">
+                    <li class="d-flex align-content-start p-2"><a data-bind="click: function(data,event) { $root.selectCRUD({'crudindex': $index() }); list(1); }" href="#"><span data-bind="text: getName()"></span> </a></li>
+                </ul>
+            </div>
+            <div class="p-2">Manage your lists at one place.</div>
+            <div class="p-2">CRUDSList is page based one or shared HTML multi-list control view.</div>
+            <div class="p-2">Select your active view and manage your lists.</div>
+            <div class="p-2">List entities must have similar fields or attributes.</div>
+        </div>
+
+        <div class="col-10 order-1">
+            <div class="row align-items-center">
+                <div class="col-6 order-0 d-flex justify-content-start">
+                    <span class="h3" data-bind="text: getCurrent().getObserverObject().getName()"></span>
+                </div>
+                <div class="col-6 order-1 d-flex justify-content-end">
+                    <nav aria-label="">
+                        <ul class="pagination">
+                            <li class="order-first page-item"><a class="page-link" data-bind="click: function(data,event) { $root.prevCRUD(); }" href="#">@SharedLibrary.Core.Resources.Global.FormMessages.PrevPage</a></li>
+                            <li class="order-last page-item"><a class="page-link" data-bind="click: function(data,event) { $root.nextCRUD(); }" href="#">@SharedLibrary.Core.Resources.Global.FormMessages.NextPage</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <p class="d-flex align-content-start">
+                <span data-bind="text: getCurrent().getObserverObject().getTitle()"></span>
+            </p>
+
+            <section id="observer-section" data-bind="with: getCurrent().getObserverObject().getObserverObject()">
+
+                @Controls.Core.Grid.GridComposer.composeGrid(null, "well", null, null, null, null, null, null, null, null)
+
+            </section>
+
+        </div>
+    </div>
+</div>
+
+<section data-bind="with: getCurrent().getObserverObject().getObserverObject()">
+    @Controls.Core.Grid.GridComposer.composeStandardListing(null, "#__form")
+    @Controls.Core.Form.FormComposer.composeForm("__form", null, null, null, "<div data-bind=\"template: {name: 'formcontent' }\"></div>", null, null, null, null, true, false)
+</section>
+
+@section Scripts {
+
+    <script src="~/js/models/Category.js" type="text/javascript"></script>
+    <script src="~/js/models/Color.js" type="text/javascript"></script>
+    <script src="~/js/models/Unit.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        var cruds = CRUDSList({
+            'cruds': [
+                        new CRUDView({
+                        'name': 'category-view', 'title': 'Categories',
+                        'uri': '/admin/category', 'observer': new CRUDObserver({ 'contentType': new Category({}), 'messages': intialize(new MessageRepository()) })
+                        }),
+                        new CRUDView({
+                            'name': 'color-view', 'title': 'Categories',
+                            'uri': '/admin/color', 'observer': new CRUDObserver({ 'contentType': new Color({}), 'messages': intialize(new MessageRepository()) })
+                        }),
+                        new CRUDView({
+                            'name': 'unit-view', 'title': 'Categories',
+                            'uri': '/admin/unit', 'observer': new CRUDObserver({ 'contentType': new Unit({}), 'messages': intialize(new MessageRepository()) })
+                        })
+                    ],
+            'observer': new ObjectObserver({})
+        });
+
+        $(function () {
+
+            try {
+
+                ko.applyBindings(cruds);
+            }
+            catch (e) {
+
+                console.log(e.message);
+            }
+
+            cruds.getCurrent().getObject().list(1);
+        });
+
+    </script>
+}

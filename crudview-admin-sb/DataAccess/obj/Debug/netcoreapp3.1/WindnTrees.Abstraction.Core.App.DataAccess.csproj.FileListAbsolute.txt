@@ -1,0 +1,4 @@
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.DataAccess\obj\Debug\netcoreapp3.1\WindnTrees.Abstraction.Core.App.DataAccess.csprojAssemblyReference.cache
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.DataAccess\obj\Debug\netcoreapp3.1\WindnTrees.Abstraction.Core.App.DataAccess.AssemblyInfoInputs.cache
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.DataAccess\obj\Debug\netcoreapp3.1\WindnTrees.Abstraction.Core.App.DataAccess.AssemblyInfo.cs
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.DataAccess\obj\Debug\netcoreapp3.1\WindnTrees.Abstraction.Core.App.DataAccess.csproj.CoreCompileInputs.cache

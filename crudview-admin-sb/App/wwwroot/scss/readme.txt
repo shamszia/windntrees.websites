@@ -1,0 +1,1 @@
+Styles apply to sb-admin template only.

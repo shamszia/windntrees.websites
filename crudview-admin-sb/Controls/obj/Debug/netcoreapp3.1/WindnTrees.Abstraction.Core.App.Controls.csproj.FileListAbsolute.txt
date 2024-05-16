@@ -1,0 +1,15 @@
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.Controls\bin\Debug\netcoreapp3.1\Controls.dll
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.Controls\bin\Debug\netcoreapp3.1\Controls.deps.json
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.Controls\bin\Debug\netcoreapp3.1\Controls.pdb
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.Controls\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.Controls\bin\Debug\netcoreapp3.1\SharedLibrary.dll
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.Controls\bin\Debug\netcoreapp3.1\SharedLibrary.pdb
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.Controls\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Html.Abstractions.xml
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.Controls\bin\Debug\netcoreapp3.1\ur\SharedLibrary.resources.dll
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.Controls\obj\Debug\netcoreapp3.1\WindnTrees.Abstraction.Core.App.Controls.csprojAssemblyReference.cache
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.Controls\obj\Debug\netcoreapp3.1\WindnTrees.Abstraction.Core.App.Controls.AssemblyInfoInputs.cache
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.Controls\obj\Debug\netcoreapp3.1\WindnTrees.Abstraction.Core.App.Controls.AssemblyInfo.cs
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.Controls\obj\Debug\netcoreapp3.1\WindnTrees.Abstraction.Core.App.Controls.csproj.CoreCompileInputs.cache
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.Controls\obj\Debug\netcoreapp3.1\WindnTrees.Abstraction.Core.App.Controls.csproj.CopyComplete
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.Controls\obj\Debug\netcoreapp3.1\Controls.dll
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.Controls\obj\Debug\netcoreapp3.1\Controls.pdb

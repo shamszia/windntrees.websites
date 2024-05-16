@@ -1,0 +1,30 @@
+﻿.content-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.desktop {
+    display: block !important;
+}
+
+.portable {
+    display: none !important;
+}
+
+@media (max-width: 576px) {
+    .desktop {
+        display: none !important;
+    }
+    .portable {
+        display: block !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .desktop {
+        display: none !important;
+    }
+    .portable {
+        display: block !important;
+    }
+}

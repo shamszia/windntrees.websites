@@ -1,0 +1,25 @@
+﻿.desktop {
+    display: block !important;
+}
+
+.portable {
+    display: none !important;
+}
+
+@media (max-width: 576px) {
+    .desktop {
+        display: none !important;
+    }
+    .portable {
+        display: block !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .desktop {
+        display: none !important;
+    }
+    .portable {
+        display: block !important;
+    }
+}

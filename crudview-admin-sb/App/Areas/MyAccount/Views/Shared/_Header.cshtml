@@ -1,0 +1,76 @@
+﻿@using Microsoft.AspNetCore.Http;
+@using Microsoft.AspNetCore.Hosting;
+@using Microsoft.AspNetCore.Identity;
+@using Application.Core.Models;
+
+@inject UserManager<ApplicationUser> UserManager
+@inject IWebHostEnvironment ENV
+
+<!-- basic views -->
+<script type="text/html" id="request_progress">
+    <div class="progress-bar" role="progressbar" data-bind="attr: { style: ('width: ' + RequestProgress()  + '%;'), 'aria-valuenow': (&quot; + RequestProgress() + &quot;) }" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"><span data-bind="text: RequestProgress()"></span></div>
+</script>
+
+<script type="text/html" id="results_processing">
+    <span class="d-flex justify-content-end">
+        <i class="fa fa-cog fa-spin" data-bind="visible: Processing()"></i>
+    </span>
+</script>
+<script type="text/html" id="results_messages">
+    <span class="d-flex justify-content-start" data-bind="if: ResultMessage().length > 0">
+        <span data-bind="text: ResultMessage"></span>
+    </span>
+</script>
+
+<script type="text/html" id="form_processing">
+    <span class="d-flex justify-content-end">
+        <i class="fa fa-cog fa-spin" data-bind="visible: FormProcessing()"></i>
+    </span>
+</script>
+<script type="text/html" id="form_messages">
+    <span class="d-flex justify-content-start" data-bind="if: FormResultMessage().length > 0">
+        <span data-bind="text: FormResultMessage"></span>
+    </span>
+</script>
+
+<script type="text/html" id="list_results_messages">
+    <span class="d-flex justify-content-start" data-bind="if: ResultMessage().length > 0">
+        <span data-bind="text: ResultMessage"></span>
+    </span>
+</script>
+<script type="text/html" id="list_error_messages">
+    <li class="alert alert-danger"><span data-bind="text: errField"></span> <span data-bind="text: errMessage"></span></li>
+</script>
+
+<!-- NAVBAR -->
+@{
+    string[] rolesArray = null;
+
+    if (User.Identity.IsAuthenticated)
+    {
+        ApplicationUser user = await UserManager.FindByNameAsync(User.Identity.Name);
+        rolesArray = (await UserManager.GetRolesAsync(user)).ToArray<string>();
+    }
+
+    var mainNavigationContent = WindnTrees.Controls.Standard.Bootstrap.Navbar.NavigationComposer.composeFromJson(new string[] {
+                ENV.ContentRootPath + "\\navigations\\navigation-myaccount.json" },
+                User.Identity.Name, rolesArray,
+                null, "4.0");
+
+    var navbarElement = mainNavigationContent.getItems()[0];
+}
+
+<!-- SIDEBAR -->
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+    <!-- Sidebar - Brand -->
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/myaccount/home/index">
+        <div class="sidebar-brand-text mx-3"><img class="img-fluid" src="/images/logo.png"></div>
+    </a>
+
+    @Html.Raw(navbarElement.generateHtml(rolesArray))
+
+    <div class="text-center d-none d-md-inline pt-2">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+    </div>
+</ul>

@@ -1,0 +1,330 @@
+﻿{
+  "authenticationMode": true,
+  "version": "4.0",
+  "cssClass": "col-sm-12 col-md-8 col-lg-8 p-0",
+  "tag": "ul",
+  "attributes": [
+    {
+      "name": "class",
+      "value": "navbar-nav d-flex justify-content-start"
+    }
+  ],
+  "roles": [ "anonymous" ],
+  "items": [
+    {
+      "text": "$resources: Application.Core.Navigations.Navigation, Home",
+      "attributes": [
+        {
+          "name": "id",
+          "value": ""
+        },
+        {
+          "name": "title",
+          "value": "$resources: Application.Core.Navigations.Navigation, HomeD"
+        },
+        {
+          "name": "class",
+          "value": "nav-item"
+        }
+      ],
+      "linkUrl": "/home/index",
+      "linkAttributes": [
+        {
+          "name": "id",
+          "value": ""
+        },
+        {
+          "name": "title",
+          "value": ""
+        },
+        {
+          "name": "class",
+          "value": "nav-link"
+        }
+      ],
+      "roles": [ "signin" ]
+    },
+    {
+      "text": "$resources: Application.Core.Navigations.Navigation, Members",
+      "attributes": [
+        {
+          "name": "title",
+          "value": "$resources: Application.Core.Navigations.Navigation, MembersD"
+        },
+        {
+          "name": "class",
+          "value": "nav-item dropdown"
+        }
+      ],
+      "linkUrl": "#MEMBERS_MENU",
+      "linkAttributes": [
+        {
+          "name": "class",
+          "value": "nav-link dropdown-toggle"
+        }
+      ],
+      "roles": [ "anonymous" ],
+      "linkNavigationTemplate": "<a {0} href=\"#members-menu\" class=\"nav-link dropdown-toggle\" data-bs-toggle=\"collapse\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">{1} <span class=\"{2}\"></span></a>",
+      "subNavigationTemplate": "<ul id=\"members-menu\" class=\"dropdown-menu\">{0}</ul>\n",
+      "items": [
+        {
+          "text": "$resources: Application.Core.Navigations.Navigation, Members",
+          "attributes": [
+            {
+              "name": "title",
+              "value": "$resources: Application.Core.Navigations.Navigation, Members"
+            }
+          ],
+          "linkUrl": "/member/index",
+          "linkAttributes": [
+            {
+              "name": "class",
+              "value": "nav-link"
+            }
+          ],
+          "roles": [ "signin" ]
+        },
+        {
+          "text": "$resources: Application.Core.Navigations.Navigation, Members",
+          "attributes": [
+            {
+              "name": "title",
+              "value": "$resources: Application.Core.Navigations.Navigation, MembersD"
+            },
+            {
+              "name": "class",
+              "value": "nav-item"
+            }
+          ],
+          "linkUrl": "/myaccount/member/index",
+          "linkAttributes": [
+            {
+              "name": "class",
+              "value": "nav-link"
+            }
+          ],
+          "roles": [ "registered" ]
+        },
+        {
+          "text": "",
+          "attributes": [
+            {
+              "name": "class",
+              "value": "dropdown-divider"
+            }
+          ],
+          "separator": true
+        },
+        {
+          "text": "$resources: Application.Core.Navigations.Navigation, Management",
+          "attributes": [
+            {
+              "name": "title",
+              "value": "$resources: Application.Core.Navigations.Navigation, ManagementD"
+            },
+            {
+              "name": "class",
+              "value": "nav-item"
+            }
+          ],
+          "linkUrl": "/management/index",
+          "linkAttributes": [
+            {
+              "name": "class",
+              "value": "nav-link"
+            }
+          ],
+          "roles": [ "anonymous" ]
+        },
+        {
+          "text": "",
+          "attributes": [
+            {
+              "name": "class",
+              "value": "dropdown-divider"
+            }
+          ],
+          "separator": true
+        },
+        {
+          "text": "$resources: Application.Core.Navigations.Navigation, Notices",
+          "attributes": [
+            {
+              "name": "title",
+              "value": "$resources: Application.Core.Navigations.Navigation, NoticesD"
+            },
+            {
+              "name": "class",
+              "value": "nav-item"
+            }
+          ],
+          "linkUrl": "/notices/index",
+          "linkAttributes": [
+            {
+              "name": "class",
+              "value": "nav-link"
+            }
+          ],
+          "roles": [ "anonymous" ]
+        },
+        {
+          "text": "",
+          "attributes": [
+            {
+              "name": "class",
+              "value": "dropdown-divider"
+            }
+          ],
+          "separator": true
+        },
+        {
+          "text": "$resources: Application.Core.Navigations.Navigation, Events",
+          "attributes": [
+            {
+              "name": "title",
+              "value": "$resources: Application.Core.Navigations.Navigation, EventsD"
+            },
+            {
+              "name": "class",
+              "value": "nav-item"
+            }
+          ],
+          "linkUrl": "/events/index",
+          "linkAttributes": [
+            {
+              "name": "class",
+              "value": "nav-link"
+            }
+          ],
+          "roles": [ "anonymous" ]
+        }
+      ]
+    },
+    {
+      "text": "$resources: Application.Core.Navigations.Navigation, MyApplications",
+      "attributes": [
+        {
+          "name": "title",
+          "value": "$resources: Application.Core.Navigations.Navigation, MyApplicationsD"
+        },
+        {
+          "name": "class",
+          "value": "nav-item"
+        }
+      ],
+      "linkUrl": "/myaccount/application/index",
+      "linkAttributes": [
+        {
+          "name": "class",
+          "value": "nav-link"
+        }
+      ],
+      "roles": [ "registered" ]
+    },
+    {
+      "text": "$resources: Application.Core.Navigations.Navigation, Services",
+      "attributes": [
+        {
+          "name": "title",
+          "value": "$resources: Application.Core.Navigations.Navigation, ServicesD"
+        },
+        {
+          "name": "class",
+          "value": "nav-item"
+        }
+      ],
+      "linkUrl": "/services/index",
+      "linkAttributes": [
+        {
+          "name": "class",
+          "value": "nav-link"
+        }
+      ],
+      "roles": [ "anonymous" ]
+    },
+    {
+      "text": "$resources: Application.Core.Navigations.Navigation, Networks",
+      "attributes": [
+        {
+          "name": "title",
+          "value": "$resources: Application.Core.Navigations.Navigation, NetworksD"
+        },
+        {
+          "name": "class",
+          "value": "nav-item"
+        }
+      ],
+      "linkUrl": "/networks/index",
+      "linkAttributes": [
+        {
+          "name": "class",
+          "value": "nav-link"
+        }
+      ],
+      "roles": [ "anonymous" ]
+    },
+    {
+      "text": "$resources: Application.Core.Navigations.Navigation, Map",
+      "attributes": [
+        {
+          "name": "title",
+          "value": "$resources: Application.Core.Navigations.Navigation, MapD"
+        },
+        {
+          "name": "class",
+          "value": "nav-item"
+        }
+      ],
+      "linkUrl": "/home/map",
+      "linkAttributes": [
+        {
+          "name": "class",
+          "value": "nav-link"
+        }
+      ],
+      "roles": [ "signin" ]
+    },
+    {
+      "text": "$resources: Application.Core.Navigations.Navigation, News",
+      "attributes": [
+        {
+          "name": "title",
+          "value": "$resources: Application.Core.Navigations.Navigation, NewsD"
+        },
+        {
+          "name": "class",
+          "value": "nav-item"
+        }
+      ],
+      "linkUrl": "/news/index",
+      "linkAttributes": [
+        {
+          "name": "class",
+          "value": "nav-link"
+        }
+      ],
+      "roles": [ "signin" ]
+    },
+    {
+      "text": "$resources: Application.Core.Navigations.Navigation, Contact",
+      "attributes": [
+        {
+          "name": "title",
+          "value": "$resources: Application.Core.Navigations.Navigation, ContactD"
+        },
+        {
+          "name": "class",
+          "value": "nav-item"
+        }
+      ],
+      "linkUrl": "/home/contact",
+      "linkAttributes": [
+        {
+          "name": "class",
+          "value": "nav-link"
+        }
+      ],
+      "roles": [ "signin" ]
+    }
+  ]
+}

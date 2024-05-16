@@ -1,0 +1,285 @@
+﻿@using Microsoft.AspNetCore.Http;
+@using Microsoft.AspNetCore.Hosting;
+@using Microsoft.Extensions.Options;
+@using Microsoft.Extensions.Localization;
+@using SharedLibrary.Core.Resources.Global;
+@using Microsoft.AspNetCore.Identity;
+@using Application.Core.Models;
+
+@inject IOptions<Application.Core.Models.Configuration.ApplicationSettings> ApplicationSettings
+
+@inject UserManager<ApplicationUser> UserManager
+@inject IStringLocalizer<FormMessages> FormMessages
+@inject IStringLocalizer<StandardMessages> StandardMessages
+@inject IStringLocalizer<KOMessages> KOMessages
+@inject IStringLocalizer<ValidationMessages> ValidationMessages
+@inject IWebHostEnvironment ENV
+
+@{
+    Layout = null;
+
+    var theme = @ApplicationSettings.Value.theme;
+
+    if (string.IsNullOrEmpty(theme))
+    {
+        theme = "native";
+    }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Custom fonts for this template-->
+    <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="~/css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="~/css/jquery-ui.structure.min.css" />
+    <link rel="stylesheet" href="~/css/jquery-ui.theme.min.css" />
+
+    <!-- Custom styles for this template-->
+    <link href="/css/extensions/sb-admin-2.min.css" rel="stylesheet">
+    <link href="/css/extensions/sb-admin-2-site.css" rel="stylesheet">
+    
+    @if (IsSectionDefined("Header"))
+    {
+        @RenderSection("Header", required: false)
+    }
+    else
+    {
+        <title>Administrator</title>
+    }
+</head>
+
+<body id="page-top" dir="@Context.Session.GetString("bodyDirection")">
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        @await Html.PartialAsync("_Header")
+
+        @if (IsSectionDefined("Authorization"))
+        {
+            @RenderSection("Authorization", required: false)
+        }
+        else
+        {
+            @Html.AntiForgeryToken()
+        }
+
+        @if (IsSectionDefined("ContentHeader"))
+        {
+            @RenderSection("ContentHeader", required: false)
+        }
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- NAVBAR -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+                    <!-- MAIN NAVIGATION -->
+                    <div class="navbar-brand">
+                        <div class="h3 desktop">
+                            @LocaleResources.Core.Views.Dashboard.Index.GoodMorning <b>@User.Identity.Name</b>
+                        </div>
+                        @if (IsSectionDefined("PageTitle"))
+                        {
+                            @RenderSection("PageTitle", required: false)
+                        }
+                        else
+                        {
+                            <h3 class="welcome-sub-text">@LocaleResources.Core.Views.Dashboard.Index.DashboardSummary</h3>
+                        }
+                        <!-- Sidebar Toggle (Topbar) -->
+                        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        @* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button> *@
+                    </div>
+
+                    @{
+                        string[] rolesArray = null;
+
+                        if (User.Identity.IsAuthenticated)
+                        {
+                            ApplicationUser user = await UserManager.FindByNameAsync(User.Identity.Name);
+                            rolesArray = (await UserManager.GetRolesAsync(user)).ToArray<string>();
+                        }
+                    }
+
+                    @Html.Raw(WindnTrees.Controls.Standard.Bootstrap.Navbar.NavigationComposer.composeFromJson(new string[] { ENV.ContentRootPath + "\\navigations\\navigation-admin-right.json" }, User.Identity.Name, rolesArray, null, null, "4.0"))
+
+                </nav>
+
+                @* @if (IsSectionDefined("PagePath"))
+                {
+                    @RenderSection("PagePath", required: false)
+                }
+                else
+                {
+                    @Controls.Core.Navs.NavigationComposer.composePathNavigation(Context.Request.Path)
+                } *@
+
+                @RenderBody()
+
+            </div>
+            <!-- End of Main Content -->
+
+            @if (IsSectionDefined("ContentFooter"))
+            {
+                @RenderSection("ContentFooter", required: false)
+            }
+
+            @await Html.PartialAsync("_Footer")
+
+            @await Html.PartialAsync("_Copyright")
+        </div>
+        <!-- End of Content Wrapper -->
+    </div>
+    <!-- End of Page Wrapper -->
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="/js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <!-- <script src="/vendor/chart.js/Chart.min.js"></script> -->
+
+    <!-- Page level custom scripts -->
+    <!-- <script src="/js/demo/chart-area-demo.js"></script>
+    <script src="/js/demo/chart-pie-demo.js"></script> -->
+
+    <!-- JAVASCRIPTS -->
+
+    @* <script src="~/lib/jquery/dist/jquery.js" type="text/javascript"></script> *@
+    <script src="~/lib/jquery.form/jquery.form.js" type="text/javascript"></script>
+    <script src="~/lib/jquery.ui/jquery-ui-1.12.1.min.js" type="text/javascript"></script>
+    <script src="~/lib/datejs.js" type="text/javascript"></script>
+    <script src="~/lib/umd/popper.min.js" type="text/javascript"></script>
+    <script src="~/lib/umd/popper-utils.min.js" type="text/javascript"></script>
+
+    @* <script src="~/lib/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script> *@
+    
+    <script src="~/lib/underscore.js" type="text/javascript"></script>
+    <script src="~/lib/moment.min.js" type="text/javascript"></script>
+    <script src="~/lib/bootstrap-datepicker.js" type="text/javascript"></script>
+    <script src="~/lib/bootstrap-timepicker.js" type="text/javascript"></script>
+    <script src="~/lib/knockoutjs/knockout-3.4.2.js" type="text/javascript"></script>
+    <script src="~/lib/knockoutjs.validation/knockout.validation.min.js" type="text/javascript"></script>
+    <script src="~/lib/windntrees-132.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function intialize(repository) {
+
+            ko.validation.init({
+                insertMessages: false,
+                decorateElement: true,
+                errorElementClass: 'error'
+            });
+
+            ko.validation.rules['required'].message = '@KOMessages["Required"]';
+            ko.validation.rules['min'].message = '@KOMessages["Min"]';
+            ko.validation.rules['max'].message = '@KOMessages["Max"]';
+            ko.validation.rules['minLength'].message = '@KOMessages["MinLength"]';
+            ko.validation.rules['maxLength'].message = '@KOMessages["MaxLength"]';
+            ko.validation.rules['pattern'].message = '@KOMessages["Pattern"]';
+            ko.validation.rules['step'].message = '@KOMessages["Step"]';
+            ko.validation.rules['email'].message = '@KOMessages["Email"]';
+            ko.validation.rules['date'].message = '@KOMessages["Date"]';
+            ko.validation.rules['dateISO'].message = '@KOMessages["DateISO"]';
+            ko.validation.rules['number'].message = '@KOMessages["Number"]';
+            ko.validation.rules['digit'].message = '@KOMessages["Digit"]';
+            ko.validation.rules['phoneUS'].message = '@KOMessages["PhoneUS"]';
+            ko.validation.rules['equal'].message = '@KOMessages["Equal"]';
+            ko.validation.rules['notEqual'].message = '@KOMessages["NotEqual"]';
+
+            ko.validation.registerExtenders();
+
+            repository.clean();
+            repository.add(new LocaleMessage("form.new.text", '@FormMessages["New"]'));
+            repository.add(new LocaleMessage("form.edit.text", '@FormMessages["Edit"]'));
+            repository.add(new LocaleMessage("form.noRecord.text", '@FormMessages["NoRecord"]'));
+            repository.add(new LocaleMessage("form.found.text", '@FormMessages["Found"]'));
+            repository.add(new LocaleMessage("form.records.text", '@FormMessages["Records"]'));
+            repository.add(new LocaleMessage("form.saved.text", '@FormMessages["Saved"]'));
+            repository.add(new LocaleMessage("form.failed.text", '@FormMessages["Failed"]'));
+            repository.add(new LocaleMessage("form.displayingPage.text", '@FormMessages["DisplayingPage"]'));
+            repository.add(new LocaleMessage("form.of.text", '@FormMessages["Of"]'));
+            repository.add(new LocaleMessage("form.totalPages.text", '@FormMessages["TotalPages"]'));
+            repository.add(new LocaleMessage("form.ok.text", '@FormMessages["Ok"]'));
+            repository.add(new LocaleMessage("standard.alertSure.text", '@StandardMessages["AlertSure"]'));
+            repository.add(new LocaleMessage("standard.processing.text", '@StandardMessages["Processing"]'));
+            repository.add(new LocaleMessage("standard.err.text", '@StandardMessages["Err"]'));
+            repository.add(new LocaleMessage("standard.ok.text", '@StandardMessages["Ok"]'));
+            repository.add(new LocaleMessage("standard.listloadok.text", '@StandardMessages["ListLoadOk"]'));
+            repository.add(new LocaleMessage("standard.listloaderr.text", '@StandardMessages["ListLoadErr"]'));
+
+            return repository;
+        }
+
+        $(function () { 
+            var bodyDir = $('body').attr('dir');
+
+            if (bodyDir === 'rtl') {
+
+                $('#accordionSidebar').attr('class', 'navbar-nav bg-gradient-primary sidebar sidebar-dark accordion p-0');
+
+                $('.nav-link').each(function () {
+
+                    $(this).attr('class','nav-link text-right');
+                });
+            }
+        });
+    </script>
+
+    @if (IsSectionDefined("Scripts"))
+    {
+        @RenderSection("Scripts", required: false)
+    }
+</body>
+
+</html>

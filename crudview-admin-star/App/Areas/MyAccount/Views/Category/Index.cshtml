@@ -1,0 +1,107 @@
+﻿@section Header
+{
+    <title>Categories</title>
+
+    <script type='text/html' id='actions'>
+        <div class='input-group'>
+            <span class='input-group-btn'>
+                <button data-bind='click: function(data, event) { resetForm(); }' class='btn btn-primary btn-control-primary' data-bs-toggle='modal' data-bs-target='#__form' title='New'>
+                    <span>New</span>
+                </button>
+            </span>
+            <input class='form-control' data-bind='value: Keyword' type='text' placeholder='Keyword' />
+            <span class='input-group-append'>
+                <button data-bind='click: function() { list(1); }' class='btn btn-primary btn-control-primary' type='button' title='press to search'><span>Search</span></button>
+            </span>
+        </div>
+    </script>
+
+    <script type="text/html" id="headings">
+        <tr>
+            <th class="col-5 order-0" scope="col">
+                <span class="d-flex align-content-start" title="Name">Name</span>
+            </th>
+            <th class="col-5 order-1" scope="col">
+                <span class="d-flex align-content-start" title="Description">Description</span>
+            </th>
+            <th class="col-2 order-2" scope="col">&nbsp;</th>
+        </tr>
+    </script>
+
+    <script type="text/html" id="rows">
+        <tr>
+            <td><span class="d-flex align-content-start" data-bind="text: Name()"></span></td>
+            <td><span class="d-flex align-content-start" data-bind="text: Description()"></span></td>
+            <td>
+                <div class="d-flex justify-content-end">
+                    <span>
+                        <a class="green" href="#" data-bind="click: function(data, event) { $parent.resetFormForEditing($index); }" data-bs-toggle="modal" data-bs-target="#__form" title="Edit"><i class="fa fa-edit text-success"></i>Edit</a>
+                        <!-- This invokes a default delete controller repository method. -->
+                        <a class="red" href="#" data-bind="click: function(data, event) { $parent.delete({ content: $data }); }" title="Delete"><i class="fa fa-times text-danger"></i>Delete</a>
+                    </span>
+                    <!-- Following invokes custom delete method with __target in repository. 
+                         CRUD2CRUD does not grow in interface definitions instead promotes
+                         repository methods. -->
+                    <!-- <a class="red" href="#" data-bind="click: function(data, event) { $parent.delete({ __target: 'DeleteCategory', content: $data }); }" title="Delete"><i class="fa fa-times text-danger"></i>Delete</a> -->
+                </div>
+            </td>
+        </tr>
+    </script>
+
+    <script type="text/html" id="formcontent">
+        <div class="row form-group">
+            <div class="col-4 order-0">
+                <label class="control-label d-flex align-content-start" for="Name">
+                    Name
+                </label>
+                <input class="form-control col-12" data-bind="value: $parent.EditMode() ? Name : Name" id="Name" type="text" title="Name"
+                       maxlength="50" placeholder="" /><span class="error"
+                                                             data-bind="validationMessage: Name"></span>
+            </div>
+            <div class="col-8 order-1">
+                <label class="control-label d-flex align-content-start" for="Description">
+                    Description
+                </label>
+                <input class="form-control col-12" data-bind="value: $parent.EditMode() ? Description : Description" id="Description" type="text" title="Description"
+                       maxlength="255" placeholder="" /><span class="error"
+                                                              data-bind="validationMessage: Description"></span>
+            </div>
+        </div>
+    </script>
+}
+
+@section PageTitle {
+    <h3 class="welcome-sub-text">CRUDView</h3>
+}
+
+@Controls.Core.Grid.GridComposer.composeGrid(null, null, null, null, null, null, null, null, null, null)
+
+@Controls.Core.Grid.GridComposer.composeStandardListing(null, "#__form", true)
+@Controls.Core.Form.FormComposer.composeForm("__form", null, null, null, "<div data-bind=\"template: {name: 'formcontent' }\"></div>", null, null, null, null, true)
+
+<!-- Following invokes custom create and update methods with __target in repository. 
+     CRUD2CRUD does not grow in interface definitions instead promotes
+     repository methods. -->
+<!-- @Controls.Core.Form.FormComposer.composeForm("__form", null, null, null, "<div data-bind=\"template: {name: 'formcontent' }\"></div>", null, "create({\"__target\": \"CreateCategory\"})", "update({\"__target\": \"UpdateCategory\"})", null, true) -->
+
+@section Scripts {
+
+    <script src="~/js/models/Category.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        var crudView = new CRUDView({
+            'name': 'categories', 'title': '',
+            'uri': '/myaccount/category',
+            'observer': new CRUDObserver({ 'contentType': new Category({}), 'messages': intialize(new MessageRepository()) })
+        });
+
+        $(function () {
+
+            ko.applyBindings(crudView.getObserverObject());
+        });
+
+        crudView.list(1);
+
+    </script>
+}

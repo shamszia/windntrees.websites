@@ -1,0 +1,2 @@
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.Controls\obj\Debug\netcoreapp2.0\Controls.dll
+D:\projects\softwares\windntrees\WindnTrees.Abstraction.Core.App.Controls\obj\Debug\netcoreapp2.0\Controls.pdb

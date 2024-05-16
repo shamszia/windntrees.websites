@@ -1,0 +1,342 @@
+﻿@section Header
+{
+    <title>@LocaleResources.Core.Views.Dashboard.Index.DashboardSummary</title>
+}
+
+<div id="webpage" class="content-wrapper">
+    <div class="row actions">
+        <div class="col-sm-12 col-md-12 col-lg-12 pb-4 order-0">
+            <form>
+                   <div class="row d-flex justify-content-end">
+                        <input id="startDate" name="startDate" type="text" class="col-2 form-control-sm-custom" title="@SharedLibrary.Core.Resources.Global.FormMessages.StartDate" />
+                        <input id="startTime" name="startTime" type="text" class="col-2 form-control-sm-custom" title="@SharedLibrary.Core.Resources.Global.FormMessages.StartTime" />
+                        <input id="endDate" name="endDate" type="text" class="col-2 form-control-sm-custom" title="@SharedLibrary.Core.Resources.Global.FormMessages.EndDate" />
+                        <input id="endTime" name="endTime" type="text" class="col-2 form-control-sm-custom" title="@SharedLibrary.Core.Resources.Global.FormMessages.EndTime" />
+                        <span class="input-group-append">
+                            <button type="submit" class='btn btn-primary btn-control-primary m-0' data-bind='click: function() { search(1); }' title='@SharedLibrary.Core.Resources.Global.FormMessages.SearchD'><span>@SharedLibrary.Core.Resources.Global.FormMessages.Search</span></button>
+                        </span>
+                    </div> 
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-3 col-lg-3">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mb-5">
+                                <div class="mr-1">
+                                    <div class="text-info mb-1">
+                                        @LocaleResources.Core.Views.Dashboard.Index.Items
+                                    </div>
+                                    <h2 class="mb-2 mt-2 font-weight-bold"><span data-bind="text: TotalProducts()"></span></h2>
+                                    <div class="font-weight-bold">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mb-5">
+                                <div class="mr-1">
+                                    <div class="text-info mb-1">
+                                        @LocaleResources.Core.Views.Dashboard.Index.Sales
+                                    </div>
+                                    <h2 class="mb-2 mt-2 font-weight-bold"><span data-bind="text: CurrencySymbol() + ' ' + TotalSales()"></span></h2>
+                                    <div class="font-weight-bold">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mb-5">
+                                <div class="mr-1">
+                                    <div class="text-info mb-1">
+                                        @LocaleResources.Core.Views.Dashboard.Index.ReceivedPayment
+                                    </div>
+                                    <h2 class="mb-2 mt-2 font-weight-bold"><span data-bind="text: CurrencySymbol() + ' ' + TotalReceivedPayment()"></span></h2>
+                                    <div class="font-weight-bold">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mb-5">
+                                <div class="mr-1">
+                                    <div class="text-info mb-1">
+                                        @LocaleResources.Core.Views.Dashboard.Index.DuePayment
+                                    </div>
+                                    <h2 class="mb-2 mt-2 font-weight-bold"><span data-bind="text: CurrencySymbol() + ' ' + Math.abs((TotalDiscount() - TotalReceivedPayment()))"></span></h2>
+                                    <div class="font-weight-bold">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row pt-4">
+        <div class="col-sm-12 col-md-8 col-lg-8">
+            <div class="card card-rounded">
+                <div class="card-body">
+                    <div class="d-sm-flex justify-content-between align-items-start">
+                        <div>
+                            <h4 class="card-title card-title-dash">@LocaleResources.Core.Views.Dashboard.Index.Chart</h4>
+                            <h5 class="card-subtitle card-subtitle-dash"></h5>
+                        </div>
+                        <div id="performance-line-legend"></div>
+                    </div>
+                    <div class="chartjs-wrapper">
+                        <div id="chart_monthly_sales"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">@LocaleResources.Core.Views.Dashboard.Index.Summary</h4>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <p class="">@LocaleResources.Core.Views.Dashboard.Index.Items</p>
+                            <h2 class="text-info"><span data-bind="text: TotalProducts()"></span></h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <p class="">@LocaleResources.Core.Views.Dashboard.Index.Sales</p>
+                            <h2 class="text-info"><span data-bind="text: CurrencySymbol() + ' ' + TotalDiscount()"></span></h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <p class="">@LocaleResources.Core.Views.Dashboard.Index.DuePayment</p>
+                            <h2 class="text-info"><span data-bind="text: CurrencySymbol() + ' ' + Math.abs((TotalDiscount() - TotalReceivedPayment()))"></span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+
+    <script src="~/lib/c3/c3.min.js" type="text/javascript"></script>
+    <script src="~/lib/d3/d3.min.js" type="text/javascript"></script>
+
+    <script src="~/js/models/OptionItemKeyVal.js" type="text/javascript"></script>
+    <script src="~/js/models/DashboardReport.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        var dashboardView = new CRUDView({
+            'uri': '/myaccount/home',
+            'observer': new CRUDObserver({ 'contentType': new DashboardReport({}), 'messages': intialize(new MessageRepository()) }),
+            'views': new ListObserver({ object: new ObjectObserver({}) }),
+            'progressEvent': true
+        });
+
+        dashboardView.getObserverObject().ListSize(10000);
+
+        dashboardView.getObserverObject().TotalProducts = ko.observable(0);
+        dashboardView.getObserverObject().TotalSales = ko.observable(0);
+        dashboardView.getObserverObject().TotalDiscount = ko.observable(0);
+        dashboardView.getObserverObject().TotalReceivedPayment = ko.observable(0);
+        dashboardView.getObserverObject().TotalDuePayment = ko.observable(0);
+
+        dashboardView.getObserverObject().CurrencySymbol = ko.observable('@ViewData["CurrencySymbol"]');
+
+        dashboardView.getObserverObject().search = function (listNumber) {
+
+            dashboardView.getObserverObject().list({
+                target: "GetDashboardReport",
+                contentType: new DashboardReport({}),
+                query: {
+                    starttime: moment(new Date($('#startDate').val() + "T" + $('#startTime').val())).utc(),
+                    endtime: moment(new Date($('#endDate').val() + "T" + $('#endTime').val())).utc()
+                }
+            });
+        };
+
+        dashboardView.getObserverObject().dashboardSummary = function (event, eventData) {
+
+            var result = dashboardView.getObserverObject().Record();
+
+            if (eventData !== null && eventData !== undefined) {
+
+                if (eventData.result !== null && eventData.result !== undefined) {
+
+                    result = eventData.result
+                }
+            }
+
+            try {
+
+                dashboardView.getObserverObject().TotalProducts(result.Products());
+                dashboardView.getObserverObject().TotalSales(result.Sales());
+                dashboardView.getObserverObject().TotalDiscount(result.Discount());
+                dashboardView.getObserverObject().TotalReceivedPayment(result.ReceivedPayment());
+                dashboardView.getObserverObject().TotalDuePayment(result.DuePayment());
+            }
+            catch (e) {
+                console.log(e.message);
+            }
+
+            chartSummaryView.getObserverObject().search();
+        };
+
+        dashboardView.getObserverObject().setListSource(dashboardView);
+
+
+        /**
+         * Chart summary list view
+         */
+        var chartSummaryView = new CRUDView({
+            'key': 'chart-summary-view',
+            'uri': '/myaccount/home',
+            'observer': new CRUDObserver({ 'contentType': new OptionItemKeyVal({}), 'messages': intialize(new MessageRepository()) })
+        });
+
+        chartSummaryView.getObserverObject().search = function () {
+
+            chartSummaryView.getObserverObject().list({
+                target: 'GetMonthlyChartSummary',
+                query: {
+                    starttime: moment(new Date($('#startDate').val() + "T" + $('#startTime').val())).utc(),
+                    endtime: moment(new Date($('#endDate').val() + "T" + $('#endTime').val())).utc(),
+                    size: 48, //logically its a 12 months progress report
+                    page: 1
+                }
+            });
+        };
+
+        chartSummaryView.getObserverObject().afterResultsRendering = function (event, eventData) {
+
+            chartSummaryView.getObserverObject().setCharting();
+        };
+
+        chartSummaryView.getObserverObject().setCharting = function () {
+
+            var dataSets = chartSummaryView.getObserverObject().Records();
+            var chartSets = [];
+
+            for (var i = 0; i < dataSets.length; i++) {
+
+                if (chartSets.length === 0) {
+
+                    chartSets[i] = [];
+                    chartSets[i].push(dataSets[i]["key"]);
+                    chartSets[i].push((parseInt(dataSets[i]["val"])));
+                }
+                else {
+
+                    var foundSet = false;
+
+                    for (var j = 0; j < chartSets.length; j++) {
+                        if (chartSets[j][0] === (dataSets[i]["key"])) {
+
+                            foundSet = true;
+                            chartSets[j].push((parseInt(dataSets[i]["val"])));
+                        }
+                    }
+
+                    if (!foundSet) {
+
+                        chartSets[j] = [];
+                        chartSets[j].push(dataSets[i]["key"]);
+                        chartSets[j].push(parseInt(dataSets[i]["val"]));
+                    }
+                }
+            }
+
+            var chart = c3.generate({
+                bindto: '#chart_monthly_sales',
+                size: {
+                    height: 290
+                },
+                data: {
+                    columns: chartSets,
+                    labels: {
+                        format: function (v, id) {
+
+                            return v;
+                        }
+                    },
+                    type: 'pie',
+                    onclick: function (d, element) { console.log("onclick", d, element); },
+                    onmouseover: function (d) { console.log("onmouseover", d); },
+                    onmouseout: function (d) { console.log("onmouseout", d); }
+                },
+                axis: {
+                    x: {
+                        type: 'categorized'
+                    }
+                },
+                bar: {
+                    width: {
+                        ratio: 0.3,
+                        //            max: 30
+                    },
+                }
+            });
+        };
+
+        chartSummaryView.ExtendFields();
+        chartSummaryView.getObserverObject().setListSource(chartSummaryView);
+        chartSummaryView.subscribeEvent('records.after.rendering.view.CRUD.WindnTrees', chartSummaryView.getObserverObject().afterResultsRendering);
+
+        //dashboardView.getReferentialViews().newItem({ 'object': chartSummaryView });
+
+        $(function () {
+
+            try {
+
+                ko.applyBindings(dashboardView.getObserverObject(), document.getElementById("webpage"));
+            }
+            catch (e) {
+
+                console.log(e.message);
+            }
+
+            dashboardView.subscribeEvent('record.after.rendering.view.CRUD.WindnTrees', dashboardView.getObserverObject().dashboardSummary);
+
+            $('#startDate').datepicker({ format: 'yyyy-mm-dd' });
+            $('#endDate').datepicker({ format: 'yyyy-mm-dd' });
+
+            var startDate = moment(Date.now()).subtract(4, 'M');
+            $('#startDate').val(startDate.format("YYYY-MM-DD"));
+            $('#startTime').val("00:00:00");
+            $('#endDate').val(moment(Date.now()).format("YYYY-MM-DD"));
+            $('#endTime').val("23:59:59");
+
+            dashboardView.getObserverObject().search(1);
+        });
+    </script>
+}
