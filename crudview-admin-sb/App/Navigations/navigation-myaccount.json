@@ -28,7 +28,7 @@
         }
       ],
       "itemTemplate": "<li {0}>{1}</li>",
-      "linkTemplate": "<a {0} href='{1}'><i class='fa fa-tachometer-alt fa-fw'></i><span>{2}</span></a><hr class='sidebar-divider my-0' role='separator'>",
+      "linkTemplate": "<a {0} href='{1}'><i class='fa fa-tachometer-alt fa-lg pr-2'></i><span>{2}</span></a><hr class='sidebar-divider my-0' role='separator'>",
       "linkUrl": "/myaccount/home/index?home",
       "linkAttributes": [
         {
@@ -59,7 +59,7 @@
         }
       ],
       "itemTemplate": "<li {0}>{1}</li>",
-      "linkTemplate": "<a {0} href='{1}'><i class='fa fa-tachometer-alt fa-fw'></i><span>{2}</span></a><hr class='sidebar-divider my-0' role='separator'>",
+      "linkTemplate": "<a {0} href='{1}'><i class='fa fa-clone fa-lg pr-2'></i><span>{2}</span></a><hr class='sidebar-divider my-0' role='separator'>",
       "linkUrl": "/myaccount/category/index?crudview",
       "linkAttributes": [
         {
@@ -82,7 +82,7 @@
         }
       ],
       "itemTemplate": "<li {0}>{1}</li>",
-      "linkTemplate": "<a {0} href='{1}'><i class='fa fa-tachometer-alt fa-fw'></i><span>{2}</span></a><hr class='sidebar-divider my-0' role='separator'>",
+      "linkTemplate": "<a {0} href='{1}'><i class='fa fa-list fa-lg pr-2'></i><span>{2}</span></a><hr class='sidebar-divider my-0' role='separator'>",
       "linkUrl": "/myaccount/lists/index?lists",
       "linkAttributes": [
         {
@@ -112,7 +112,7 @@
         }
       ],
       "roles": [ "mngr_myaccount" ],
-      "linkNavigationTemplate": "<a {0} href=\"#reports\" class=\"nav-link dropdown-toggle\" data-toggle=\"collapse\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class='fa fa-cog fa-fw'></i><span>{1}</span> <span class=\"{2}\"></span></a>",
+      "linkNavigationTemplate": "<a {0} href=\"#reports\" class=\"nav-link dropdown-toggle\" data-toggle=\"collapse\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class='fa fa-print fa-lg pr-2'></i><span>{1}</span> <span class=\"{2}\"></span></a>",
       "subNavigationTemplate": "<ul id=\"reports\" class=\"dropdown-menu\">{0}</ul>\n",
       "items": [
         {
@@ -128,7 +128,7 @@
             }
           ],
           "itemTemplate": "<li {0}>{1}</li>",
-          "linkTemplate": "<a {0} href=\"{1}\" target=\"\">{2}</a>",
+          "linkTemplate": "<a {0} href=\"{1}\" target=\"\"><i class=\"fa fa-file fa-lg pr-2\"></i><span>{2}</span></a>",
           "linkUrl": "/myaccount/reports/index?summary",
           "linkAttributes": [
             {
@@ -153,7 +153,7 @@
         }
       ],
       "itemTemplate": "<li {0}>{1}</li>",
-      "linkTemplate": "<a {0} href='{1}'><i class='fa fa-tachometer-alt fa-fw'></i><span>{2}</span></a><hr class='sidebar-divider my-0' role='separator'>",
+      "linkTemplate": "<a {0} href='{1}'><i class='fa fa-user reorder fa-lg pr-2'></i><span>{2}</span></a><hr class='sidebar-divider my-0' role='separator'>",
       "linkUrl": "/account/logout?logout",
       "linkAttributes": [
         {
@@ -176,7 +176,7 @@
         }
       ],
       "itemTemplate": "<li {0}>{1}</li>",
-      "linkTemplate": "<a {0} href='{1}'><i class='fa fa-tachometer-alt fa-fw'></i><span>{2}</span></a><hr class='sidebar-divider my-0' role='separator'>",
+      "linkTemplate": "<a {0} href='{1}'><i class='fa fa-user reorder fa-lg pr-2'></i><span>{2}</span></a><hr class='sidebar-divider my-0' role='separator'>",
       "linkUrl": "/account/login",
       "linkAttributes": [
         {
