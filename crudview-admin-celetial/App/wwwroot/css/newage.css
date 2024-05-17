@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Libre Barcode 39 Extended Text';
+    src: url('fonts/LibreBarcode39ExtendedText-Regular.ttf');
+}
+
+@page {
+    size: auto;
+}
+
+.breadcrumb {
+    padding-left: 10px;
+}
+
+.footer-section-left {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-section-middle {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-section-right {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.home-image {
+    padding-top: 0px;
+    padding-bottom: 100px;
+}
+
+.home-text {
+    text-align: center;
+}
+
+.logo-center {
+    text-align: center;
+}
+
+.page-list-size {
+
+}
+
+.regprint {
+
+}
+
+.report-logo {
+    width: 200px;
+}
+
+.slide-image {
+    height: 250px;
+}

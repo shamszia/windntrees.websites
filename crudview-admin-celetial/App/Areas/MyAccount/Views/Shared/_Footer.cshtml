@@ -1,0 +1,13 @@
+﻿@using Microsoft.AspNetCore.Http;
+@using Microsoft.AspNetCore.Mvc;
+@using Microsoft.Extensions.Options;
+
+@inject IOptions<Application.Core.Models.Configuration.ApplicationSettings> ApplicationSettings
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+<footer class="footer">
+    <div class="d-sm-flex justify-content-center justify-content-sm-between footer-content">
+        <span class="text-center text-sm-left d-block d-sm-inline-block">&copy;2024 <a class="copyright-link" href="http://www.invincibletec.com/" target="_blank">invincibletec.com</a></span>
+        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><a class="copyright-link" href="#">CRUDView</a> (CRUD2CRUD) & Bootstrap Navigation Administrator</span>
+    </div>
+</footer>

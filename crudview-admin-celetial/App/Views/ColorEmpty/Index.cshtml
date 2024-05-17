@@ -1,0 +1,132 @@
+﻿<script type='text/html' id='actions'>
+    <div>
+        <h4>EmptyCRUD</h4>
+    </div>
+    <div class='input-group'>
+        <span class='input-group-btn'>
+            <button data-bind="click: function(data, event) { create(); }" class='btn btn-default' title='New'><span>New</span></button>
+            <button data-bind="click: function(data, event) { update(); }" class='btn btn-default' title='Update'><span>Update</span></button>
+            <button data-bind="click: function(data, event) { deleteRecord(); }" class='btn btn-default' title='Delete'><span>Delete</span></button>
+        </span>
+        <input class='form-control' data-bind='value: Keyword' type='text' placeholder='Keyword' />
+        <span class='input-group-append'>
+            <button data-bind="click: function() { read(); }" class='btn btn-default' type='button' title='press to search'><span>Read</span></button>
+            <button data-bind="click: function() { list(); }" class='btn btn-default' type='button' title='press to search'><span>Search</span></button>
+        </span>
+    </div>
+    <div>
+        <h4>EmptyCRUD with Target</h4>
+    </div>
+    <div class='input-group'>
+        <span class='input-group-btn'>
+            <button data-bind="click: function(data, event) { create({ target: 'createCRUD' }); }" class='btn btn-default' title='New'><span>New</span></button>
+            <button data-bind="click: function(data, event) { update({ target: 'updateCRUD' }); }" class='btn btn-default' title='Update'><span>Update</span></button>
+            <button data-bind="click: function(data, event) { deleteRecord({ target: 'deleteCRUD' }); }" class='btn btn-default' title='Delete'><span>Delete</span></button>
+        </span>
+        <input class='form-control' data-bind='value: Keyword' type='text' placeholder='Keyword' />
+        <span class='input-group-append'>
+            <button data-bind="click: function() { read({ target: 'readCRUD' }); }" class='btn btn-default' type='button' title='press to search'><span>Read</span></button>
+            <button data-bind="click: function() { list({ target: 'listCRUD' }); }" class='btn btn-default' type='button' title='press to search'><span>Search</span></button>
+        </span>
+    </div>
+    <div>
+        <h4>EmptyCRUD with __Target</h4>
+    </div>
+    <div class='input-group'>
+        <span class='input-group-btn'>
+            <button data-bind="click: function(data, event) { create({ __target: 'CreateCRUD' }); }" class='btn btn-default' title='New'><span>New</span></button>
+            <button data-bind="click: function(data, event) { update({ __target: 'UpdateCRUD' }); }" class='btn btn-default' title='Update'><span>Update</span></button>
+            <button data-bind="click: function(data, event) { deleteRecord({ __target: 'DeleteCRUD' }); }" class='btn btn-default' title='Delete'><span>Delete</span></button>
+        </span>
+        <input class='form-control' data-bind='value: Keyword' type='text' placeholder='Keyword' />
+        <span class='input-group-append'>
+            <button data-bind="click: function() { read({ __target: 'ReadCRUD' }); }" class='btn btn-default' type='button' title='press to search'><span>Read</span></button>
+            <button data-bind="click: function() { list({ __target: 'ListCRUD' }); }" class='btn btn-default' type='button' title='press to search'><span>Search</span></button>
+        </span>
+    </div>
+</script>
+
+<script type="text/html" id="headings">
+    <tr>
+        <th class="col-4 order-0" scope="col">
+            <span class="d-flex align-content-start" title="@LocaleResources.Core.Contents.Color.Name">@LocaleResources.Core.Contents.Color.Name</span>
+        </th>
+        <th class="col-8 order-1" scope="col">
+            <span class="d-flex align-content-start" title="@LocaleResources.Core.Contents.Color.Description">@LocaleResources.Core.Contents.Color.Description</span>
+        </th>
+    </tr>
+</script>
+
+<script type="text/html" id="rows">
+    <tr>
+        <td><span class="d-flex align-content-start" data-bind="text: Name()"></span></td>
+        <td><span class="d-flex align-content-start" data-bind="text: Description()"></span></td>
+    </tr>
+</script>
+
+<div class="container">
+    <h2 class="d-flex align-content-start">@LocaleResources.Core.Views.Lists.Color.Index.Page</h2>
+    <p class="d-flex align-content-start">@LocaleResources.Core.Views.Lists.Color.Index.PageD</p>
+</div>
+
+@Controls.Core.Grid.GridComposer.composeGrid(null, null, null, null, null, null, null, null, null, null)
+@Controls.Core.Grid.GridComposer.composeStandardListing(null, "#", true)
+
+@section scripts {
+    <script src="~/js/models/Color.js"></script>
+
+    <script type="text/javascript">
+
+        var colors = new CRUDView({
+            'uri': '/colorempty',
+            'observer': new CRUDObserver({ 'contentType': new Color({}), 'messages': new MessageRepository() }),
+            'empty':true
+        });
+
+        colors.getObserverObject().setListSource(colors);
+
+        colors.getObserverObject().deleteRecord = function (data) {
+
+            if (data !== null && data !== undefined) {
+
+                colors.getObserverObject().delete(data);
+            }
+            else {
+                colors.getObserverObject().delete();
+            }
+        };
+
+        colors.getObserverObject().updateList = function (event, eventData) {
+
+            colors.getObserverObject().Records([]);
+
+            var list = [];
+            list.push(new Color(eventData.result));
+            colors.getObserverObject().Records(list);
+        };
+
+        $(function () {
+
+            ko.validation.init({
+                insertMessages: false,
+                decorateElement: true,
+                errorElementClass: 'error'
+            });
+
+            try {
+
+                ko.applyBindings(colors.getObserverObject());
+            }
+            catch (e) {
+
+                console.log(e.message);
+            }
+
+            colors.subscribeEvent('record.after.rendering.view.CRUD.WindnTrees', colors.getObserverObject().updateList);
+
+            colors.getObserverObject().Keyword("");
+
+            //colors.list(1);
+        });
+    </script>
+}

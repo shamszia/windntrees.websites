@@ -1,0 +1,13 @@
+.outer-items-list {
+    padding-left: 0rem !important;
+}
+
+.sidebar-icon-only .nav-link .sub-menu-title {
+    width: auto !important;
+    padding: 0px !important;
+}
+
+.status-summary, .text-info {
+
+    color: #eeeeee !important;
+}

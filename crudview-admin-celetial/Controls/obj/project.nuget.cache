@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "EEF/UxVXaOViO4vRDP6Yhk1b3yKLM+xBDnsMKUgtIBUsHpn3lfrIB8MVMJb1n/vGyLkkbC8zSPXuIHZQYB1vYg==",
+  "success": true,
+  "projectFilePath": "E:\\projects\\software\\windntrees.sites\\crudview-admin-celetial\\Controls\\Controls.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\geo_s\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\geo_s\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

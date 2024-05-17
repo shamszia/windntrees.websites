@@ -1,0 +1,459 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Application.Core
+build_property.RootNamespace = Application.Core
+build_property.ProjectDir = E:\projects\software\institute-scrp\WindnTrees.Abstraction.Core.App\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\projects\software\institute-scrp\WindnTrees.Abstraction.Core.App
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/Admin/Views/Advertisement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWR2ZXJ0aXNlbWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/Admin/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/Admin/Views/Company/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tcGFueVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/Admin/Views/Configurations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29uZmlndXJhdGlvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/Admin/Views/Lists/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGlzdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/Admin/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/Admin/Views/Reference/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVmZXJlbmNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/Admin/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/Admin/Views/Shared/_Copyright.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Db3B5cmlnaHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/Admin/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/Admin/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/Admin/Views/Shared/_LayoutNoSidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXROb1NpZGViYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/Admin/Views/Shared/_Slides.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9TbGlkZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/Admin/Views/Shared/_Welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9XZWxjb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/Admin/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/Home/MyProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXEhvbWVcTXlQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/Lists/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXExpc3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/Shared/_Copyright.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFNoYXJlZFxfQ29weXJpZ2h0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFNoYXJlZFxfRm9vdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFNoYXJlZFxfSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/Shared/_LayoutPrint.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFNoYXJlZFxfTGF5b3V0UHJpbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFNoYXJlZFxfTG9naW5QYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/Shared/_Slides.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFNoYXJlZFxfU2xpZGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/Shared/_Welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFNoYXJlZFxfV2VsY29tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/StudentCourse/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFN0dWRlbnRDb3Vyc2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/StudentsRegistration/Card.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFN0dWRlbnRzUmVnaXN0cmF0aW9uXENhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/StudentsRegistration/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFN0dWRlbnRzUmVnaXN0cmF0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/StudentsRegistration/NoRegistration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFN0dWRlbnRzUmVnaXN0cmF0aW9uXE5vUmVnaXN0cmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/StudentsRegistration/Print.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFN0dWRlbnRzUmVnaXN0cmF0aW9uXFByaW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/StudentsRegistration/Print1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFN0dWRlbnRzUmVnaXN0cmF0aW9uXFByaW50MS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/StudentsRegistration/PrintList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFN0dWRlbnRzUmVnaXN0cmF0aW9uXFByaW50TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Areas/MyAccount/Views/StudentsRegistration/PrintSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFN0dWRlbnRzUmVnaXN0cmF0aW9uXFByaW50U3VtbWFyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Account/ExternalLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Account/Lockout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Account/LoginWith2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Account/LoginWithRecoveryCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Account/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Account/SignedOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduZWRPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/ColorEmpty/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sb3JFbXB0eVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Color/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Example/AVView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXBsZVxBVlZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Example/ContentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXBsZVxDb250ZW50TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Example/CRUDSList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXBsZVxDUlVEU0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Example/CRUDView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXBsZVxDUlVEVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Example/EditView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXBsZVxFZGl0Vmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Example/FlexView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXBsZVxGbGV4Vmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Example/ImageView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXBsZVxJbWFnZVZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Example/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXBsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Example/NewView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXBsZVxOZXdWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Example/SearchList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXBsZVxTZWFyY2hMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Example/SearchView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXBsZVxTZWFyY2hWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Example/TextView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXBsZVxUZXh0Vmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Example/Uploads.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXBsZVxVcGxvYWRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/General/ErrorPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbFxFcnJvclBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Help/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Help/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Home/Documentation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEb2N1bWVudGF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Manage/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Manage/Disable2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXERpc2FibGUyZmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Manage/EnableAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXEVuYWJsZUF1dGhlbnRpY2F0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Manage/ExternalLogins.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXEV4dGVybmFsTG9naW5zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Manage/GenerateRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXEdlbmVyYXRlUmVjb3ZlcnlDb2Rlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Manage/ResetAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXFJlc2V0QXV0aGVudGljYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Manage/SetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXFNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Manage/ShowRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXFNob3dSZWNvdmVyeUNvZGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Manage/TwoFactorAuthentication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXFR3b0ZhY3RvckF1dGhlbnRpY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXF9NYW5hZ2VOYXYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Manage/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXF9TdGF0dXNNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/News/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Product/Information.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmZvcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Shared/EmailTemplates/NewAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVtYWlsVGVtcGxhdGVzXE5ld0FjY291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Shared/EmailTemplates/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVtYWlsVGVtcGxhdGVzXFJlc2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Shared/_Copyright.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db3B5cmlnaHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Shared/_LayoutHTML.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRIVE1MLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Shared/_LayoutPrint.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRQcmludC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Shared/_Slides.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TbGlkZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Shared/_temp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF90ZW1wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Shared/_Welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9XZWxjb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/Unit/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projects/software/institute-scrp/WindnTrees.Abstraction.Core.App/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

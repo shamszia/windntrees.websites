@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Libre Barcode 39 Extended Text';
+    src: url('fonts/LibreBarcode39ExtendedText-Regular.ttf');
+}
+
+@page {
+    size: auto;
+}
+
+@media print {
+    *{ -webkit-print-color-adjust: exact; }
+}
+
+.btn-control-primary {
+    font-size: 0.812rem;
+    padding: .5rem .81rem;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.btn-form-control-primary {
+    padding: 0.6rem 1rem;
+}
+
+.card-padding {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.centered-report {
+    width: 500px;
+    margin: auto;
+}
+
+h6.heading {
+    margin-top: 40px;
+}
+
+.logo-center {
+    text-align: center;    
+    background: url('/images/badge-100.png') no-repeat center;
+    width: 100px;
+    height: 100px;
+    color: #ffffff;
+}
+
+.logo-center-card {
+    text-align: center;    
+    background: url('/images/badge-100.png') no-repeat center;
+    width: 100px;
+    height: 100px;
+    color: #ffffff;
+    font-size: 0.92rem;
+}
+
+.logo-report-text {
+    padding-top: 15px;
+}
+
+.logo-report-text-card {
+    padding-top: 15px;
+}
+
+.page-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.regprint {
+    
+}
+
+.report-logo {
+    width: 200px;
+}

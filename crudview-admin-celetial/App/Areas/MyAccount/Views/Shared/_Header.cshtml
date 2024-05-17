@@ -1,0 +1,83 @@
+﻿@using Microsoft.AspNetCore.Http;
+@using Microsoft.AspNetCore.Hosting;
+@using Microsoft.AspNetCore.Mvc;
+@using Microsoft.Extensions.Options;
+@using Microsoft.AspNetCore.Identity;
+@using SharedLibrary.Core.Resources.Global;
+@using Application.Core.Models;
+
+@inject IHostingEnvironment ENV
+@inject UserManager<ApplicationUser> UserManager
+@inject IOptions<Application.Core.Models.Configuration.ApplicationSettings> ApplicationSettings
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    var navbarClass = "navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row";
+}
+
+<!-- basic views -->
+<script type="text/html" id="request_progress">
+    <div class="progress-bar" role="progressbar" data-bind="attr: { style: ('width: ' + RequestProgress() + '%;'), 'aria-valuenow': RequestProgress() }" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"><span data-bind="text: RequestProgress()"></span></div>
+</script>
+
+<script type="text/html" id="results_processing">
+    <span class="d-flex justify-content-end">
+        <i class="fa fa-cog fa-spin" data-bind="visible: Processing()"></i>
+    </span>
+</script>
+<script type="text/html" id="results_messages">
+    <span class="d-flex justify-content-start" data-bind="if: ResultMessage().length > 0">
+        <span data-bind="text: ResultMessage"></span>
+    </span>
+</script>
+
+<script type="text/html" id="form_processing">
+    <span class="d-flex justify-content-end">
+        <i class="fa fa-cog fa-spin" data-bind="visible: FormProcessing()"></i>
+    </span>
+</script>
+<script type="text/html" id="form_messages">
+    <span class="d-flex justify-content-start" data-bind="if: FormResultMessage().length > 0">
+        <span data-bind="text: FormResultMessage"></span>
+    </span>
+</script>
+
+<script type="text/html" id="list_results_messages">
+    <span class="d-flex justify-content-start" data-bind="if: ResultMessage().length > 0">
+        <span data-bind="text: ResultMessage"></span>
+    </span>
+</script>
+<script type="text/html" id="list_error_messages">
+    <li class="alert-danger"><span data-bind="text: errField"></span> <span data-bind="text: errMessage"></span></li>
+</script>
+
+<!-- NAVBAR -->
+<nav class="@navbarClass" role="navigation">
+
+    <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+        <button class="navbar-toggler navbar-toggler align-self-center d-none d-lg-flex" type="button" data-toggle="minimize">
+            <span class="typcn typcn-th-menu"></span>
+        </button>
+        <a class="navbar-brand brand-logo" href="/myaccount"><img src="@Url.Content("~/images/logo.png")" alt="" /></a>
+    </div>
+
+    <!-- @{
+        string[] rolesArray = null;
+
+        if (User.Identity.IsAuthenticated)
+        {
+            ApplicationUser user = await UserManager.FindByNameAsync(User.Identity.Name);
+            rolesArray = (await UserManager.GetRolesAsync(user)).ToArray<string>();
+        }
+    }
+
+    <div class="navbar-menu-wrapper desktop d-flex align-items-center justify-content-end">
+        <ul class="navbar-nav mr-lg-2">
+            @Html.Raw((WindnTrees.Controls.Standard.Bootstrap.Navbar.NavigationComposer.composeFromJson(new string[] { System.IO.Path.Combine(new string[] { ENV.ContentRootPath, "Navigations", "navigation.json" }) }, User.Identity.Name, rolesArray, null, "4.0").getItems()[0]).generateHtml(rolesArray))
+        </ul>
+        <ul class="navbar-nav navbar-nav-right">
+            @Html.Raw((WindnTrees.Controls.Standard.Bootstrap.Navbar.NavigationComposer.composeFromJson(new string[] { System.IO.Path.Combine(new string[] { ENV.ContentRootPath, "Navigations", "navigation-right.json" }) }, User.Identity.Name, rolesArray, null, "4.0").getItems()[0]).generateHtml(rolesArray))
+        </ul>
+    </div> -->
+</nav>
+<!-- END NAVBAR -->
