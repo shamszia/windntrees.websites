@@ -29,13 +29,13 @@
 <p>
 <div class="row">
               <div class="col-sm-12 col-md-4 col-lg-4">
-                     <a href="https://github.com/shamszia/windntrees.websites"><img class="img-fluid" src="/uploads/references/image/star-admin-400.png"></a>
+                     <a href="https://github.com/shamszia/windntrees.websites"><img class="img-fluid" src="https://raw.githubusercontent.com/shamszia/windntrees.websites/main/star-admin.png"></a>
                </div>
 <div class="col-sm-12 col-md-4 col-lg-4">
-                     <a href="https://github.com/shamszia/windntrees.websites"><img class="img-fluid" src="/uploads/references/image/admin-sb-400.png"></a>
+                     <a href="https://github.com/shamszia/windntrees.websites"><img class="img-fluid" src="https://raw.githubusercontent.com/shamszia/windntrees.websites/main/admin-sb.png"></a>
                </div>
 <div class="col-sm-12 col-md-4 col-lg-4">
-                     <a href="https://github.com/shamszia/windntrees.websites"><img class="img-fluid" src="/uploads/references/image/celestial-400.png"></a>
+                     <a href="https://github.com/shamszia/windntrees.websites"><img class="img-fluid" src="https://raw.githubusercontent.com/shamszia/windntrees.websites/main/celestial.png"></a>
                </div>
         </div>       
 </p>
