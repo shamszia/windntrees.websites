@@ -188,14 +188,13 @@ namespace Application.Core.Areas.Admin.Controllers
                     user.EmailConfirmed = model.EmailConfirmed;
                 }
 
-                if (context.SaveChanges() > 0)
-                {
-                    //var user1 = ManagerUser.FindByNameAsync(model.UserName).Result;
-                    var RepositoryUserRoles = new IdentityUserRoleRepository(new ApplicationDbContext(new DbContextOptions<ApplicationDbContext>()));
+                context.SaveChanges();
 
-                    RepositoryUserRoles.RemoveUserRoles(user.Id);
-                    RepositoryUserRoles.AddUserRoles(user.Id, roles.Select(l => l.RoleId).ToArray<string>());
-                }
+                //var user1 = ManagerUser.FindByNameAsync(model.UserName).Result;
+                var RepositoryUserRoles = new IdentityUserRoleRepository(new ApplicationDbContext(new DbContextOptions<ApplicationDbContext>()));
+
+                RepositoryUserRoles.RemoveUserRoles(user.Id);
+                RepositoryUserRoles.AddUserRoles(user.Id, roles.Select(l => l.RoleId).ToArray<string>());
 
                 //update model for updated response with roles.
                 model.Roles = roles;

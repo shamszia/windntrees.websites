@@ -9,339 +9,339 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Application.Core
 build_property.RootNamespace = Application.Core
-build_property.ProjectDir = E:\projects\software\windntrees.sites\crudview-admin-celetial\App\
+build_property.ProjectDir = E:\projects\software\windntrees.websites\crudview-admin-celetial\App\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\projects\software\windntrees.sites\crudview-admin-celetial\App
+build_property.MSBuildProjectDirectory = E:\projects\software\windntrees.websites\crudview-admin-celetial\App
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/Admin/Views/Advertisement/Index.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/Admin/Views/Advertisement/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWR2ZXJ0aXNlbWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/Admin/Views/Category/Index.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/Admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/Admin/Views/Company/Index.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/Admin/Views/Company/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tcGFueVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/Admin/Views/Configurations/Index.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/Admin/Views/Configurations/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29uZmlndXJhdGlvbnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/Admin/Views/Home/Index.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/Admin/Views/Lists/Index.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/Admin/Views/Lists/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGlzdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/Admin/Views/Product/Index.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/Admin/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/Admin/Views/Reference/Index.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/Admin/Views/Reference/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVmZXJlbmNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/Admin/Views/Role/Index.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/Admin/Views/Role/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/Admin/Views/Shared/_Copyright.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/Admin/Views/Shared/_Copyright.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Db3B5cmlnaHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/Admin/Views/Shared/_Footer.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/Admin/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/Admin/Views/Shared/_Header.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/Admin/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/Admin/Views/Shared/_Layout.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/Admin/Views/Shared/_LayoutNoSidebar.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/Admin/Views/Shared/_LayoutNoSidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXROb1NpZGViYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/Admin/Views/Shared/_Slides.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/Admin/Views/Shared/_Slides.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9TbGlkZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/Admin/Views/Shared/_Welcome.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/Admin/Views/Shared/_Welcome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9XZWxjb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/Admin/Views/Users/Index.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/Admin/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/Admin/Views/_ViewImports.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/Admin/Views/_ViewStart.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/MyAccount/Views/Category/Index.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/MyAccount/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXENhdGVnb3J5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/MyAccount/Views/Home/ActivityHistory.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/MyAccount/Views/Home/ActivityHistory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXEhvbWVcQWN0aXZpdHlIaXN0b3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/MyAccount/Views/Home/Index.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/MyAccount/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/MyAccount/Views/Home/MyProfile.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/MyAccount/Views/Home/MyProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXEhvbWVcTXlQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/MyAccount/Views/Lists/Index.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/MyAccount/Views/Lists/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXExpc3RzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/MyAccount/Views/Reports/Index.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/MyAccount/Views/Reports/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFJlcG9ydHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/MyAccount/Views/Shared/_Copyright.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/MyAccount/Views/Shared/_Copyright.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFNoYXJlZFxfQ29weXJpZ2h0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/MyAccount/Views/Shared/_Footer.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/MyAccount/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFNoYXJlZFxfRm9vdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/MyAccount/Views/Shared/_Header.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/MyAccount/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFNoYXJlZFxfSGVhZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/MyAccount/Views/Shared/_Layout.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/MyAccount/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/MyAccount/Views/Shared/_LayoutPrint.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/MyAccount/Views/Shared/_LayoutPrint.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFNoYXJlZFxfTGF5b3V0UHJpbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/MyAccount/Views/Shared/_LoginPartial.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/MyAccount/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFNoYXJlZFxfTG9naW5QYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/MyAccount/Views/Shared/_Slides.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/MyAccount/Views/Shared/_Slides.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFNoYXJlZFxfU2xpZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/MyAccount/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/MyAccount/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/MyAccount/Views/Shared/_Welcome.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/MyAccount/Views/Shared/_Welcome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXFNoYXJlZFxfV2VsY29tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Areas/MyAccount/Views/_ViewStart.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Areas/MyAccount/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlBY2NvdW50XFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Account/AccessDenied.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Account/ConfirmEmail.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Account/ExternalLogin.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Account/ForgotPassword.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Account/ForgotPasswordConfirmation.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Account/Lockout.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Account/Login.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Account/LoginWith2fa.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Account/LoginWith2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Account/LoginWithRecoveryCode.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Account/LoginWithRecoveryCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Account/Register.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Account/ResetPassword.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Account/ResetPasswordConfirmation.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Account/SignedOut.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Account/SignedOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduZWRPdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/ColorEmpty/Index.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/ColorEmpty/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sb3JFbXB0eVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/General/ErrorPage.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/General/ErrorPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbFxFcnJvclBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Help/About.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Help/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Help/Index.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Help/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Home/About.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Home/Index.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Manage/ChangePassword.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Manage/Disable2fa.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Manage/Disable2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXERpc2FibGUyZmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Manage/EnableAuthenticator.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXEVuYWJsZUF1dGhlbnRpY2F0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Manage/ExternalLogins.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Manage/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXEV4dGVybmFsTG9naW5zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Manage/GenerateRecoveryCodes.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Manage/GenerateRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXEdlbmVyYXRlUmVjb3ZlcnlDb2Rlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Manage/Index.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Manage/ResetAuthenticator.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXFJlc2V0QXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Manage/SetPassword.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXFNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Manage/ShowRecoveryCodes.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Manage/ShowRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXFNob3dSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Manage/TwoFactorAuthentication.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXFR3b0ZhY3RvckF1dGhlbnRpY2F0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Manage/_Layout.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Manage/_ManageNav.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXF9NYW5hZ2VOYXYuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Manage/_StatusMessage.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXF9TdGF0dXNNZXNzYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Manage/_ViewImports.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Shared/EmailTemplates/NewAccount.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Shared/EmailTemplates/NewAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVtYWlsVGVtcGxhdGVzXE5ld0FjY291bnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Shared/EmailTemplates/ResetPassword.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Shared/EmailTemplates/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVtYWlsVGVtcGxhdGVzXFJlc2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Shared/Error.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Shared/_Copyright.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Shared/_Copyright.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db3B5cmlnaHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Shared/_Footer.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Shared/_Header.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Shared/_Layout.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Shared/_LayoutPrint.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Shared/_LayoutPrint.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRQcmludC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Shared/_LoginPartial.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Shared/_Slides.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Shared/_Slides.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TbGlkZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/Shared/_Welcome.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/Shared/_Welcome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9XZWxjb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/_ViewImports.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projects/software/windntrees.sites/crudview-admin-celetial/App/Views/_ViewStart.cshtml]
+[E:/projects/software/windntrees.websites/crudview-admin-celetial/App/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

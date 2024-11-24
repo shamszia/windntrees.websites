@@ -1,5 +1,6 @@
 ﻿using Application.Core.Models;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using WindnTrees.CRUDS.Repository.Core;
@@ -43,6 +44,22 @@ namespace Application.Core.Data
                 }
             }
             return orderInterface;
+        }
+
+        protected override List<ApplicationUser> PostList(List<ApplicationUser> contentsList)
+        {
+            if (contentsList != null) {
+                foreach(var user in contentsList) {
+                    if (user.Roles != null) {
+
+                        foreach (var role in user.Roles) {
+                            role.UserId = null;
+                        }
+                    }
+                }
+            }
+
+            return contentsList;
         }
 
         public ApplicationUser GetByName(string name)
