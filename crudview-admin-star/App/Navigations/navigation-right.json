@@ -31,7 +31,7 @@
         }
       ],
       "roles": [ "mngr_myaccount", "mngr_users" ],
-      "linkNavigationTemplate": "<a {0} href=\"#account-settings\" class=\"nav-link dropdown-toggle\" data-bs-toggle=\"collapse\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">{1} <span class=\"{2}\"></span></a>",
+      "linkNavigationTemplate": "<a {0} href=\"#account-settings\" class=\"nav-link dropdown-toggle\" data-toggle=\"collapse\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">{1} <span class=\"{2}\"></span></a>",
       "subNavigationTemplate": "<ul id=\"account-settings\" class=\"dropdown-menu\">{0}</ul>\n",
       "items": [
         {

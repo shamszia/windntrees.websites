@@ -1,1 +1,0 @@
-Images apply to sb-admin bootstrap template only.

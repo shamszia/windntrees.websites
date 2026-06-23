@@ -1,12 +1,12 @@
 ﻿{
   "authenticationMode": true,
   "version": "4.0",
-  "cssClass": "col-sm-12 col-md-9 col-lg-9 p-0",
+  "cssClass": "container col-sm-12 col-md-6 col-lg-6 d-flex justify-content-start p-0",
   "tag": "ul",
   "attributes": [
     {
       "name": "class",
-      "value": "navbar-nav d-flex justify-content-start"
+      "value": "navbar-nav"
     }
   ],
   "roles": [ "anonymous" ],
@@ -31,15 +31,15 @@
         }
       ],
       "roles": [ "mngr_users" ],
-      "linkNavigationTemplate": "<a {0} href=\"#admin-settings\" class=\"nav-link dropdown-toggle\" data-toggle=\"collapse\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">{1} <span class=\"{2}\"></span></a>",
-      "subNavigationTemplate": "<ul id=\"admin-settings\" class=\"dropdown-menu\">{0}</ul>\n",
+      "linkMenuTemplate": "<a {0} href=\"#admin-settings\" class=\"nav-link dropdown-toggle\" data-toggle=\"collapse\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">{1} <span class=\"{2}\"></span></a>",
+      "subMenuTemplate": "<ul id=\"admin-settings\" class=\"dropdown-menu\">{0}</ul>\n",
       "items": [
         {
-          "text": "$resources: Application.Core.Navigations.Navigation, ActivityHistory",
+          "text": "$resources: Application.Core.Navigations.Navigation, Home",
           "attributes": [
             {
               "name": "title",
-              "value": "$resources: Application.Core.Navigations.Navigation, ActivityHistoryD"
+              "value": "$resources: Application.Core.Navigations.Navigation, HomeD"
             }
           ],
           "linkUrl": "/admin/home/index",
@@ -51,40 +51,6 @@
           ]
         },
         {
-          "text": "$resources: Application.Core.Navigations.Navigation, MyLists",
-          "attributes": [
-            {
-              "name": "title",
-              "value": "$resources: Application.Core.Navigations.Navigation, MyListsD"
-            }
-          ],
-          "linkUrl": "/admin/lists/index",
-          "linkAttributes": [
-            {
-              "name": "class",
-              "value": "dropdown-item d-flex align-content-start"
-            }
-          ],
-          "roles": [ "mngr_users" ]
-        },
-        {
-          "text": "$resources: Application.Core.Navigations.Navigation, Advertisements",
-          "attributes": [
-            {
-              "name": "title",
-              "value": "$resources: Application.Core.Navigations.Navigation, AdvertisementsD"
-            }
-          ],
-          "linkUrl": "/admin/advertisement/index",
-          "linkAttributes": [
-            {
-              "name": "class",
-              "value": "dropdown-item d-flex align-content-start"
-            }
-          ],
-          "roles": [ "mngr_advertisements" ]
-        },
-        {
           "text": "$resources: Application.Core.Navigations.Navigation, Reference",
           "attributes": [
             {
@@ -93,23 +59,6 @@
             }
           ],
           "linkUrl": "/admin/reference/index",
-          "linkAttributes": [
-            {
-              "name": "class",
-              "value": "dropdown-item d-flex align-content-start"
-            }
-          ],
-          "roles": [ "mngr_users" ]
-        },
-        {
-          "text": "$resources: Application.Core.Navigations.Navigation, Products",
-          "attributes": [
-            {
-              "name": "title",
-              "value": "$resources: Application.Core.Navigations.Navigation, ProductsD"
-            }
-          ],
-          "linkUrl": "/admin/product/index",
           "linkAttributes": [
             {
               "name": "class",
@@ -140,8 +89,8 @@
         }
       ],
       "roles": [ "mngr_users" ],
-      "linkNavigationTemplate": "<a {0} href=\"#account-settings\" class=\"nav-link dropdown-toggle\" data-toggle=\"collapse\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">{1} <span class=\"{2}\"></span></a>",
-      "subNavigationTemplate": "<ul id=\"account-settings\" class=\"dropdown-menu\">{0}</ul>\n",
+      "linkMenuTemplate": "<a {0} href=\"#account-settings\" class=\"nav-link dropdown-toggle\" data-toggle=\"collapse\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">{1} <span class=\"{2}\"></span></a>",
+      "subMenuTemplate": "<ul id=\"account-settings\" class=\"dropdown-menu\">{0}</ul>\n",
       "items": [
         {
           "text": "$resources: Application.Core.Navigations.Navigation, Roles",
@@ -188,48 +137,6 @@
       ]
     },
     {
-      "text": "$resources: Application.Core.Navigations.Navigation, Members",
-      "attributes": [
-        {
-          "name": "title",
-          "value": "$resources: Application.Core.Navigations.Navigation, MembersD"
-        },
-        {
-          "name": "class",
-          "value": "nav-item"
-        }
-      ],
-      "linkUrl": "/admin/registration/index",
-      "linkAttributes": [
-        {
-          "name": "class",
-          "value": "nav-link"
-        }
-      ],
-      "roles": [ "mngr_users" ]
-    },
-    {
-      "text": "$resources: Application.Core.Navigations.Navigation, Applications",
-      "attributes": [
-        {
-          "name": "title",
-          "value": "$resources: Application.Core.Navigations.Navigation, ApplicationsD"
-        },
-        {
-          "name": "class",
-          "value": "nav-item"
-        }
-      ],
-      "linkUrl": "/admin/application/index",
-      "linkAttributes": [
-        {
-          "name": "class",
-          "value": "nav-link"
-        }
-      ],
-      "roles": [ "mngr_users" ]
-    },
-    {
       "text": "$resources: Application.Core.Navigations.Navigation, Language",
       "attributes": [
         {
@@ -249,8 +156,8 @@
         }
       ],
       "roles": [ "mngr_users" ],
-      "linkNavigationTemplate": "<a {0} href=\"#language-settings\" class=\"nav-link dropdown-toggle\" data-toggle=\"collapse\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">{1} <span class=\"{2}\"></span></a>",
-      "subNavigationTemplate": "<ul id=\"language-settings\" class=\"dropdown-menu\">{0}</ul>\n",
+      "linkMenuTemplate": "<a {0} href=\"#language-settings\" class=\"nav-link dropdown-toggle\" data-toggle=\"collapse\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">{1} <span class=\"{2}\"></span></a>",
+      "subMenuTemplate": "<ul id=\"language-settings\" class=\"dropdown-menu\">{0}</ul>\n",
       "items": [
         {
           "text": "$resources: Application.Core.Navigations.Navigation, LanguageEnglish",

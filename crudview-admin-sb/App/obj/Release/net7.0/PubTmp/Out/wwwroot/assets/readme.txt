@@ -1,1 +1,0 @@
-Assets apply to newage bootstrap template only.

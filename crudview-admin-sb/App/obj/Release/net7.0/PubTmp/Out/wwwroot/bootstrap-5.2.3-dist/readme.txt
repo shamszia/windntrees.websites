@@ -1,1 +1,0 @@
-Bootstrap 5.2.3 applies to new-age theme only.

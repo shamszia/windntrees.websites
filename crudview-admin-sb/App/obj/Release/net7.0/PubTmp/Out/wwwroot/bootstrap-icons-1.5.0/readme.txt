@@ -1,1 +1,0 @@
-Icons apply to newage bootstrap template only.
