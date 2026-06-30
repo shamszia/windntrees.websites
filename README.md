@@ -17,13 +17,6 @@
 <p>
 	<h3>CRUD2CRUD WindnTrees Free Website Templates</h3>
 	This project implements following free bootstrap templates with server side bootstrap  (WindnTrees.Controls.Standard) navigation control.
-	<ul>
-		<li><a href="https://startbootstrap.com/theme/new-age" target="_blank">New Age</a> Template</li>
-		<li><a href="https://www.bootstrapdash.com/demo/star-admin2-free/template/" target="_blank">Star Admin 2</a> Template</li>
-		<li><a href="https://startbootstrap.com/theme/sb-admin-2" target="_blank">SB Admin 2</a> Template</li>
-                <li><a href="https://www.bootstrapdash.com/demo/celestial-free/template/index.html" target="_blank">Celestial Admin 2</a> Template</li>
-		<li><a href="https://getbootstrap.com/" target="_blank">Native Bootstrap</a> Template</li>
-	</ul>
 	<p class="pt-2">Develop and theme with JSON enabled bootstrap navigation templates.</p>
         <p class="pt-2"><a href="https://github.com/shamszia/windntrees.websites">download windntrees.websites (free)</a></p>
 </p>
