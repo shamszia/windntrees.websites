@@ -25,13 +25,13 @@
 		<li><a href="https://getbootstrap.com/" target="_blank">Native Bootstrap</a> Template</li>
 	</ul>
 	<p class="pt-2">Develop and theme with JSON enabled bootstrap navigation templates.</p>
-        <p class="pt-2"><a href="https://github.com/shamszia/windntrees.websites">windntrees.websites</a></p>
+        <p class="pt-2"><a href="https://github.com/shamszia/windntrees.websites">windntrees.websites (free)</a></p>
 </p>
 <p>
 	<h3>CRUD2CRUD WindnTrees Paid Website Templates</h3>
 	<div>
 		<h4>CRUDView Display Store</h4>
-		<div><a href="https://buy.polar.sh/polar_cl_pqGQrR7XPfeFlWiNJcAbniYBskgviKMQGOfWg4BV1QZ">CRUDView Display Store</a></div>
+		<div><a href="https://buy.polar.sh/polar_cl_pqGQrR7XPfeFlWiNJcAbniYBskgviKMQGOfWg4BV1QZ">CRUDView Display Store (paid)</a></div>
 		<div>This template provide ready made store, my account and admin sections. Store section list and dislay products information, My account section manages products and Admin section manages users. </div>
 	</div>
 </p>
