@@ -15,7 +15,8 @@
 <h3>Project Website</h3>
 <p>CRUD2CRUD CRUDView, HTML, Bootstrap and KnockoutJS project website provides seem-less client and server side integration to data access using controller to controller logic. CRUD2CRUD communication scale repositories without growing interface definitions. Well defined or understood controller communication logic increases programmers productivity with clean and less code. Compare client side CRUDView and server side CRUDController code. CRUD2CRUD client and server controllers abstract repeating tasks and you're quickly ready with repositories.</p>
 <p>
-	This project implements following bootstrap templates with server side bootstrap  (WindnTrees.Controls.Standard) navigation control.
+	<h3>CRUD2CRUD WindnTrees Free Website Templates</h3>
+	This project implements following free bootstrap templates with server side bootstrap  (WindnTrees.Controls.Standard) navigation control.
 	<ul>
 		<li><a href="https://startbootstrap.com/theme/new-age" target="_blank">New Age</a> Template</li>
 		<li><a href="https://www.bootstrapdash.com/demo/star-admin2-free/template/" target="_blank">Star Admin 2</a> Template</li>
@@ -25,6 +26,14 @@
 	</ul>
 	<p class="pt-2">Develop and theme with JSON enabled bootstrap navigation templates.</p>
         <p class="pt-2"><a href="https://github.com/shamszia/windntrees.websites">windntrees.websites</a></p>
+</p>
+<p>
+	<h3>CRUD2CRUD WindnTrees Paid Website Templates</h3>
+	<div>
+		<h4>CRUDView Display Store</h4>
+		<div><a href="https://buy.polar.sh/polar_cl_pqGQrR7XPfeFlWiNJcAbniYBskgviKMQGOfWg4BV1QZ">CRUDView Display Store</a></div>
+		<div>This template provide ready made store, my account and admin sections. Store section list and dislay products information, My account section manages products and Admin section manages users. </div>
+	</div>
 </p>
 <p>
 <div class="row">
