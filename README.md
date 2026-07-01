@@ -25,12 +25,12 @@
 	<div>
 		<h4>CRUDView Display Store Software System (Programming Solution)</h4>
 		<div><a href="https://buy.polar.sh/polar_cl_pqGQrR7XPfeFlWiNJcAbniYBskgviKMQGOfWg4BV1QZ">download crudView display store (paid)</a></div>
-		<div>This template provide ready made store, my account and admin sections. Store section list and dislay products information, My account section manages products and Admin section manages users. This template is a programming solution with source code (MIT) and intial working software system.</div>
+		<div>This template provide ready made store, my account and admin sections. Store section list and dislay products information, My account section manages products and Admin section manages users. This template is a programming solution with source code (MIT) and initial working software system.</div>
 	</div>
 	<div>
 		<h4>CRUDView Course Invoicing Software System (Programming Solution)</h4>
 		<div><a href="https://buy.polar.sh/polar_cl_0cUNF0BSu29PYjEXQprMiTjTezL2AIwCc0UcY2nE4Xs">download crudView course invoicing (paid)</a></div>
-		<div>This template provide ready made academy level course listing, student registrations and invoicing. This template is a programming solution with source code (MIT) and intial working software system.</div>
+		<div>This template provide ready made academy level course listing, student registrations and invoicing. This template is a programming solution with source code (MIT) and initial working software system.</div>
 	</div>	
 </p>
 <p>
